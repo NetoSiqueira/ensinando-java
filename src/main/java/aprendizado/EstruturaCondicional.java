@@ -32,7 +32,7 @@ public class EstruturaCondicional {
                 System.out.println("O mês é março");
                 break;
             case 4:
-                System.out.println("O mês é abril");
+                System.out.println("O mês a é abril");
                 break;
             case 5:
                 System.out.println("O mês é maio");
