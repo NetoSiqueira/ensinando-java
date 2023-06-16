@@ -1,9 +1,6 @@
 package view;
 
-import aprendizado.EntradaESaida;
-import aprendizado.OperadorRelacional;
-import aprendizado.OperadoresAritmeticos;
-import aprendizado.TiposPrimitivos;
+import aprendizado.*;
 
 public class Menu {
     public void menu(int menu){
@@ -13,6 +10,9 @@ public class Menu {
         TiposPrimitivos ex2 = new TiposPrimitivos();
         OperadoresAritmeticos ex3 = new OperadoresAritmeticos();
         OperadorRelacional ex5 = new OperadorRelacional();
+        EstruturaCondicional ex6 = new EstruturaCondicional();
+        EstruturaDeRepeticao ex7 = new EstruturaDeRepeticao();
+        Vetor ex8 = new Vetor();
 
         switch (menu){
             case 1:
@@ -31,13 +31,13 @@ public class Menu {
                 ex5.operdorRelacional();
                 break;
             case 6:
-                System.out.println("Ainda não estudado :P ");
+                ex6.estruturaCondicional();
                 break;
             case 7:
-                System.out.println("Ainda não estudado :P ");
+                ex7.estruturaDeRepeticao();
                 break;
             case 8:
-                System.out.println("Ainda não estudado :P ");
+                ex8.vetor();
                 break;
             case 9:
                 System.out.println("A Forma que foi apresentado se base em Funções :P ");
